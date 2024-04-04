@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py33"
+version = "0.1.0"
+description = ""
+authors = ["Baisal12 <musacojaevbaisalbek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytelegrambotapi = "^4.16.1"
+wikipedia = "^1.4.0"
+telegrambotapi = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
